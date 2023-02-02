@@ -2,46 +2,51 @@
 <html>
 
 <head>
-    <title>Color Picker</title>
-    <link rel="stylesheet" href="index.css" />
-    <!--    Inter font-->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+	<title>Color Picker</title>
+	<link rel="stylesheet" href="index.css" />
+	<!--    Inter font-->
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+	<!--Icons-->
+	<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+	<link rel="manifest" href="icons/site.webmanifest">
 </head>
 
 <body>
-    <header>
-        <form name="color-form" action="" method="post">
-            <div class="header container">
-                <!--      Color input          -->
-                <label for="color" hidden>Select Color</label>
-                <input type='color' id="color" name="color" value="#f7cd46" />
-                
-                <!-- Options are here -->
-                <label for="modes" hidden>Select Mode</label>
-                <select name="modes" id="modes">
-                    <option value="">Select Mode</option>
-                    <option value="monochrome">Monochrome</option>
-                    <option value="monochrome-dark">Monochrome-dark</option>
-                    <option value="monochrome-light">Monochrome-light</option>
-                    <option value="analogic">Analogic</option>
-                    <option value="complement">Complement</option>
-                    <option value="analogic-complement">Analogic-complement</option>
-                    <option value="triad">Triad</option>
-                    <option value="quad">Quad</option>
-                </select>
+	<header>
+		<form name="color-form" action="" method="post">
+			<div class="header container">
+				<!--      Color input          -->
+				<label for="color" hidden>Select Color</label>
+				<input type='color' id="color" name="color" value="#f7cd46" />
 
-                <!-- Get color Scheme Button -->
-                <label for="get-scheme-btn" hidden>Get Color Scheme</label>
-                <button id="get-scheme-btn">Get Color Scheme</button>
-            </div>
-        </form>
-    </header>
-    <main>
+				<!-- Options are here -->
+				<label for="modes" hidden>Select Mode</label>
+				<select name="modes" id="modes">
+					<option value="">Select Mode</option>
+					<option value="monochrome">Monochrome</option>
+					<option value="monochrome-dark">Monochrome-dark</option>
+					<option value="monochrome-light">Monochrome-light</option>
+					<option value="analogic">Analogic</option>
+					<option value="complement">Complement</option>
+					<option value="analogic-complement">Analogic-complement</option>
+					<option value="triad">Triad</option>
+					<option value="quad">Quad</option>
+				</select>
 
-        <div class="container" id="colors-container">
-            <!--      Colors container (flex)      -->
-        </div>
+				<!-- Get color Scheme Button -->
+				<label for="get-scheme-btn" hidden>Get Color Scheme</label>
+				<button id="get-scheme-btn">Get Color Scheme</button>
+			</div>
+		</form>
+	</header>
+	<main>
 
-    </main>
-    <script src="index.js"></script>
+		<div class="container" id="colors-container">
+			<!--      Colors container (flex)      -->
+		</div>
+
+	</main>
+	<script src="index.js"></script>
 </body></html>
