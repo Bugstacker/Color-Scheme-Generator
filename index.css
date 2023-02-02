@@ -44,7 +44,7 @@ input {
 input,
 select,
 button {
-    height: 8vh;
+    height: 7vh;
 }
 
 input,
@@ -67,8 +67,11 @@ button {
     border-radius: 4px;
 }
 
-button:focus {
+button:focus,
+button:hover {
     outline: none;
+    background-color: #374151;
+    color: #ffffff;
 }
 
 main > .container {
