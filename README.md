@@ -4,5 +4,7 @@
  - Check it out via https://pick-color-scheme.netlify.app
  
 - Screen_shot
+![image](https://user-images.githubusercontent.com/86437318/216441368-abcd3182-c708-4a53-9223-33c087cae47b.png)
+
 
  
