@@ -1,97 +1,98 @@
 *::after,
 *,
 *::before {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: 'Inter', sans-serif;
 }
 
 .container {
-    max-width: 1000px;
-    margin: 0 auto
+	max-width: 1000px;
+	margin: 0 auto
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    padding: 1.25em;
-    margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 1.25em;
+	margin: 0 auto;
 }
 
 .header,
 main > .container {
-    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
+	box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
 }
 
 /*===form elements====*/
 .header,
 input,
 button {
-    background: #ffffff;
+	background: #ffffff;
 }
 
 input {
-    border: none;
-    width: 20%;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-    border-radius: 6px;
+	border: none;
+	width: 20%;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+	border-radius: 6px;
 }
 
 input,
 select,
 button {
-    height: 7vh;
+	height: 7vh;
 }
 
 input,
 button {
-    border: 1px solid #d1d5db;
+	border: 1px solid #d1d5db;
 }
 
 select {
-    width: 50%;
-    color: #111827;
-    padding: 1em;
-    font-size: 1rem;
+	width: 50%;
+	color: #111827;
+	padding: 1em;
+	font-size: 1rem;
 }
 
 button {
-    font-weight: 500;
-    font-size: .8rem;
-    color: #374151;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-    border-radius: 4px;
+	font-weight: 500;
+	font-size: .8rem;
+	color: #374151;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+	border-radius: 4px;
+	padding: .8em;
 }
 
 button:focus,
 button:hover {
-    outline: none;
-    background-color: #374151;
-    color: #ffffff;
+	outline: none;
+	background-color: #374151;
+	color: #ffffff;
 }
 
 main > .container {
-    background: #FFFDFE;
+	background: #FFFDFE;
 }
 
 #colors-container {
-    display: flex;
+	display: flex;
 }
 
 .color-scheme {
-    height: 80vh;
-    width: 100%;
+	height: 80vh;
+	width: 100%;
 }
 
 .color {
-    width: 100%;
+	width: 100%;
 }
 
 .text {
-    color: #2B283A;
-    text-align: center;
+	color: #2B283A;
+	text-align: center;
 }
